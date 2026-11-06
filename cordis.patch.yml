@@ -1,0 +1,15 @@
+# 把本插件插进 profile 的层栈。安装后在下次引擎启动时生效。
+- insert:
+    - id: usage
+      name: dsh-usage-android
+      config:
+        # 会话日志根目录；留空自动探测 $DSH_HOME/sessions
+        sessionRoot: ''
+        # 可选：自定义单价（每 1M token，货币单位由 currency 决定）。
+        # 不填就不显示任何成本行——不伪造官方价格。
+        # prices:
+        #   input: 0
+        #   output: 0
+        #   cacheRead: 0
+        # currency: '$'
+        # budget: 0
