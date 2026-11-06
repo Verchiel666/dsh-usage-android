@@ -1,6 +1,6 @@
 {
   "name": "dsh-usage-android",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Android 版 DSH 没有 Web Client 层，官方 Web 面板类用量插件在手机上渲染不出来；本插件把「会话 token 用量统计」做成 host 侧工具：总量、输入/输出/缓存命中、按天 sparkline、Top 会话、可选成本估算。纯只读。",
   "type": "module",
   "main": "index.mjs",
@@ -38,5 +38,13 @@
       "fs:read"
     ],
     "labels": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Verchiel666/dsh-usage-android.git"
+  },
+  "homepage": "https://github.com/Verchiel666/dsh-usage-android#readme",
+  "bugs": {
+    "url": "https://github.com/Verchiel666/dsh-usage-android/issues"
   }
 }

@@ -1,5 +1,10 @@
 # dsh-usage-android
 
+[![npm](https://img.shields.io/npm/v/dsh-usage-android.svg)](https://www.npmjs.com/package/dsh-usage-android)
+[![license](https://img.shields.io/npm/l/dsh-usage-android.svg)](LICENSE)
+
+`npm i dsh-usage-android` · [GitHub](https://github.com/Verchiel666/dsh-usage-android) · [Issues](https://github.com/Verchiel666/dsh-usage-android/issues)
+
 会话 token 用量统计插件（DSH / DeepSeek Harness，Android · host 侧）。
 
 ## 为什么需要这个（而不是直接用现成的用量插件）
